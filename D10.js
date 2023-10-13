@@ -267,6 +267,8 @@ const onlyLetters = (str) => {
       case word[i] === "9":
         word.splice(word.indexOf("9"), 1);
         break;
+      default:
+        break;
     }
   }
   const newWord = word.join(" ");
